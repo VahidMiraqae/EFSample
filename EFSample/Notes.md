@@ -1,1 +1,4 @@
-﻿dotnet ef dbcontext scaffold "Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Chinook" Microsoft.EntityFrameworkCore.SqlServer
+﻿dotnet tool install --global dotnet-ef
+dotnet tool update --global dotnet-ef
+dotnet tool list --global
+dotnet ef dbcontext scaffold "Data Source=chinook.db;" Microsoft.EntityFrameworkCore.Sqlite
