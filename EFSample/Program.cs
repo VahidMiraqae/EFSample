@@ -1,6 +1,4 @@
-﻿
-
-using EFSample.EntityModels;
+﻿using EFSample.EntityModels;
 using Microsoft.EntityFrameworkCore;
 
 using var db = new ChinookContext();
